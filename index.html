@@ -29,7 +29,7 @@
       }
     </style>
 </head>
-<!-- <div class="container max-w-full p-2 md:max-w-[85%] mx-auto"></div> -->
+
 
 <body class="font-manrope bg-[#f4f4f4]">
     <header class="bg-gradient-to-t from-white to-transparent ">
@@ -50,7 +50,7 @@
                         </div>
                     </div>
                     <div class="dropdown dropdown-end">
-                        <div tabindex="0" role="button" class="btn btn-ghost w-20 lg:hidden">
+                        <div tabindex="0" role="button" class="p-[6px] bg-white rounded-full lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                 stroke="currentColor" class="size-6">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -93,17 +93,18 @@
                 </div>
             </nav>
             <!-- banner section here -->
-            <section>
+            <section class="lg:my-20">
                 <div class="max-w-[1000px] text-center flex flex-col justify-center items-center mx-auto space-y-6">
                     <div><img src="assets/banner.png" alt=""></div>
                     <!-- banner content -->
-                    <h2 class="font-extrabold text-3xl lg:text-[64px] text-dark1">A barn house of this design has a striking
+                    <h2 class="font-extrabold text-3xl lg:text-[64px] text-dark1">A barn house of this design has a
+                        striking
                         appearance</h2>
                     <p class="text-dark2 font-medium max-w-4xl">The barn house captivates with its blend of rustic charm
                         and modern sophistication, featuring
                         weathered wood, sleek metal accents, and large windows that flood the space with natural light.
                     </p>
-                    <button class="btn bg-[#abef5f80] rounded-full text-xl font-extrabold h-12">
+                    <button class="btn bg-[#abef5f80] rounded-full text-xl font-extrabold h-12 w-full lg:w-auto">
                         View Details <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                             stroke-width="2" stroke="currentColor" class="size-8
                                 p-[5px] bg-primary rounded-[50%] text-black">
@@ -112,15 +113,61 @@
                         </svg>
                     </button>
                 </div>
-
             </section>
         </div>
-
     </header>
-
-
     <main>
-
+        <!-- style="background-image: url(./assets/Vector.png); background-repeat: no-repeat; background-position-x:70px; background-position-y:30px ;back" -->
+        <!-- <div class="container max-w-full p-2 md:max-w-[85%] mx-auto"></div> -->
+        <section class="lg:py-20 relative" >
+            <!-- container -->
+             <img class="absolute top-8 left-20 hidden lg:flex" src="assets/Vector.png" alt="">
+            <div class="container max-w-full p-2 md:max-w-[85%] mx-auto">
+                <!-- flex - container -->
+                <div class="flex flex-col lg:flex-row gap-9 justify-center ">
+                    <!-- side text -->
+                    <div class="space-y-6">
+                        <!--text content -->
+                        <div class="space-y-4 max-w-[573px] text-center lg:text-left">
+                            <button class="font-bold bg-white px-4 py-2 rounded-full text-dark2"><svg
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                                    stroke="currentColor" class="size-6 inline-block">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                </svg> About Us</button>
+                            <h2 class="font-extrabold text-[40px]">We design thoughtful,<br> liveable spaces</h2>
+                            <p>The barn house captivates with its blend of rustic charm and
+                                modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                        </div>
+                        <!-- card content -->
+                        <div class="flex flex-col gap-6">
+                            <div class="flex items-center gap-6 p-6 bg-white rounded-2xl shadow-sm ">
+                                <img src="assets/commercial.png" alt="">
+                                <div class="space-y-2">
+                                    <h4 class="font-extrabold text-xl">Commercial</h4>
+                                    <p class="text-dark3 max-w-80">The barn house captivates with its blend of rustic
+                                        charm
+                                        and modern.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-6 p-6 bg-white rounded-2xl shadow-sm">
+                                <img src="assets/commercial.png" alt="">
+                                <div class="space-y-2">
+                                    <h4 class="font-extrabold text-xl">Commercial</h4>
+                                    <p class="text-dark3 max-w-80">The barn house captivates with its blend of rustic
+                                        charm
+                                        and modern.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- side image -->
+                    <div>
+                        <img src="assets/Rectangle.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
