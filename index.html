@@ -32,29 +32,12 @@
 
 <body class="font-manrope bg-[#f4f4f4]">
     <!-- container for whole body excluding footer -->
-    <div class="container max-w-full p-2 md:max-w-[80%] mx-auto">
+    <div class="container max-w-full p-2 md:max-w-[85%] mx-auto">
         <header class=" ">
         <nav>
-            <div class="navbar bg-transparent ">
+            <div class="navbar bg-transparent flex justify-between">
                 <div class="navbar-start">
-                    <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="size-6">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
-                            </svg>
-
-                        </div>
-                        <ul tabindex="0"
-                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            <li><a>Home</a></li>
-                            <li><a>Service</a></li>
-                            <li><a>Portfolio</a></li>
-                            <li><a>Blog</a></li>
-                            <li><a>Contact Us</a></li>
-                        </ul>
-                    </div>
+                    
                     <div class="flex items-center gap-1">
 
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
@@ -65,8 +48,25 @@
                         </svg>
                         <a class="text-3xl font-extrabold">Rinterio</a>
                     </div>
-
                 </div>
+                <div class="dropdown dropdown-end">
+                        <div tabindex="0" role="button" class="btn btn-ghost w-20 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                            </svg>
+
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-32 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li><a>Service</a></li>
+                            <li><a>Portfolio</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact Us</a></li>
+                        </ul>
+                    </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="space-x-5 menu-horizontal px-1 text-dark3 cursor-grab">
                         <li class="hover:font-extrabold hover:text-dark2"><a>Home</a></li>
